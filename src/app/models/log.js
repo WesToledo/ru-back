@@ -1,7 +1,7 @@
 const mongoose = require("../../database");
 
 const LogSchema = new mongoose.Schema({
-  user: {
+  ra: {
     type: String,
     required: true,
   },
